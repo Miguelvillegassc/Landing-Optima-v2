@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inicio - Optima Ingeniería</title>
+  <link rel="icon" type="image/x-icon" href="src/img/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- NAVEGACIÓN MODERNA -->
+  <nav class="navbar navbar-expand-lg fixed-top nav-transparent">
+    <div class="container">
+        <div class="navbar-brand" href="#">
+          <img src="src/img/logo-blanco.svg" alt="Optima Logo" style="height: 45px;">
+        </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#wolfy">Wolfy</a></li>
+          <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <a href="#contacto" class="btn btn-contact">
+        <i class="bi bi-chat-dots"></i>
+        Contáctanos
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION RENOVADO -->
+  <section id="home" class="hero-section">
+    <div class="hero-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+
+    <video autoplay muted loop playsinline class="video-bg">
+      <source src="src/video/video-hero.mp4" type="video/mp4">
+    </video>
+
+    <div class="container hero-content">
+      <div class="hero-subtitle animate-in">Mil datos explican el pasado,</div>
+      <h1 class="hero-title animate-in">Mil datos por segundo <br> predicen el futuro...</h1>
+      <p class="hero-description animate-in">
+        El 82% de las empresas trabaja con información obsoleta. Nosotros resolvemos ese problema con tecnología de vanguardia y análisis de datos en tiempo real.
+      </p>
+      <a href="#contacto" class="hero-cta animate-in">
+        <i class="bi bi-rocket-takeoff"></i>
+        Agenda tu Demo
+      </a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS MODERNIZADOS -->
+  <section id="servicios" class="services-section">
+    <div class="container">
+      <div class="section-title fade-in">
+        <div class="section-subtitle">Nuestras Especialidades</div>
+        <h2 class="section-main-title">Servicios que Revolucionan tu Industria</h2>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6 fade-in">
+          <div class="service-card h-100">
+            <div class="service-icon float-animation">
+              <i class="bi bi-activity"></i>
+            </div>
+            <h5 class="service-title">Captura lo esencial</h5>
+            <p class="service-description">Monitorizamos sólo las variables críticas, un Kpi medido por minuto marca la diferencia.</p>
+          </div>
+        </div> 
+        <div class="col-lg-3 col-md-6 fade-in">
+          <div class="service-card h-100">
+            <div class="service-icon float-animation">
+              <i class="bi bi-gear"></i>
+            </div>
+            <h5 class="service-title">IoT Industrial.</h5>
+            <p class="service-description">Contamos con Hardware y Software para manejo absoluto de tus datos; Seguridad y Privacidad de datos son parte de nuestro compromiso.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 fade-in">
+          <div class="service-card h-100">
+            <div class="service-icon float-animation">
+              <i class="bi bi-cpu"></i>
+            </div>
+            <h5 class="service-title">Inteligencia Artificial</h5>
+            <p class="service-description">¡Por supuesto! Somos una Startup IA-based, sin embargo la expertise es lo primero, no todos los problemas se resuelven con IA.</p>
+          </div>
+        </div>
+
+           
+       
+        
+        <div class="col-lg-3 col-md-6 fade-in">
+          <div class="service-card h-100">
+            <div class="service-icon float-animation">
+              <i class="bi bi-cloud-arrow-up"></i>
+            </div>
+            <h5 class="service-title">Digitalización Total</h5>
+            <p class="service-description">Transformación digital completa. Tu información disponible sin papeles, con respaldo en la nube y acceso seguro desde cualquier dispositivo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION RENOVADO -->
+  <section id="nosotros" class="about-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 fade-in">
+          <div class="section-subtitle">Quiénes Somos</div>
+          <h2 class="section-main-title mb-4">Conectando mundos para industrias Inteligentes</h2>
+          <p class="mb-4">Nuestras soluciones combinan hardware con instalación de tableros en terreno y software tipo SaaS ambos propietarios, utilizamos ingeniería de procesos para traer sólo las variables críticas del proceso en tiempo real, con medición y actuación, logrando toma de decisiones oportunas, análisis de los comportamientos, minimizando brechas de eficiencia, optimizar los mantenimientos entre otras cosas.<br>
+
+          <br>Para ello un equipo multidisciplinario con más de 12 años de experiencia. Nuestros conocimientos en la Industria nos permiten entregarte lo que necesitas, apoyándote en tomar decisiones oportunas.
+</p>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <i class="bi bi-lightning"></i>
+                </div>
+                <div class="feature-content">
+                  <h6>Innovación Constante</h6>
+                  <p>Desarrollamos nuestra propia Tecnologia, a partir de recursos nativos para Hardware y Software</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="feature-item">
+                <div class="feature-icon" >
+                  <i class="bi bi-arrow-repeat" ></i>
+                </div>
+                <div class="feature-content">
+                  <h6>Mejora Continua</h6>
+                  <p>Sistematizamos nuestros procesos con altos estándares de ingenieria</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="col-lg-6 fade-in">
+          <div class="position-relative">
+            <img src="src/img/quienes_somos.jpg" alt="Equipo Optima Ingeniería" class="about-video">
+            <div class="about-card">
+              <h5 class="mb-3">Nuestro compromiso es contigo</h5>
+              <p class="mb-4">Trabajamos juntos para entender tus necesidades y ayudarte a tomar las mejores decisiones, con soluciones que realmente funcionan en el día a día. Estamos aquí para acompañarte en cada paso.</p>
+              <!-- <a href="#contacto" class="btn btn-primary">
+                <i class="bi bi-arrow-right"></i>
+                Conocer Más
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS AVANZADOS CON CARDS VISUALES -->
+  <section class="advanced-services-section" style="padding: 120px 0; background: white;">
+    <div class="container">
+      <div class="section-title fade-in text-center mb-5">
+        <div class="section-subtitle">Servicios</div>
+        <h2 class="section-main-title">Casos de Exito</h2>
+        <p style="color: var(--muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">
+          Cada servicio está diseñado para resolver desafíos específicos de la industria moderna
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Card 1 -->
+        <a href="#contacto" class="service-visual-card fade-in">
+          <div class="card-media">
+            <img src="src/img/procesos.jpg" alt="Contratos Industriales">
+            <div class="card-overlay">
+              <div class="overlay-icon">
+                <i class="bi bi-hdd-network"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <h4>Control de procesos por IIoT - RILES</h4>
+            <p>Wolfy notifica por tu medio preferido cuando el proceso esté fuera de Rango, actuando si lo pides. Con esto, logramos reducir en un 82% los eventos fuera de Norma DS9.</p>
+          </div>
+        </a>
+
+        <!-- Card 2 -->
+        <a href="#contacto" class="service-visual-card fade-in">
+          <div class="card-media">
+            <img src="src/img/gases.jpg" alt="Análisis de Datos">
+            <div class="card-overlay">
+              <div class="overlay-icon">
+                <i class="bi bi-filter"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <h4>Neutralización de Gases Odorantes</h4>
+            <p>Sensores de gases odorantes dan a Wolfy capacidad de actuar y neutralizar en tiempo real, llegando a predecir con un 87% de probabilidad un episodio de olor 5 minutos antes.</p>
+          </div>
+        </a>
+
+        <!-- Card 3 -->
+        <a href="#contacto" class="service-visual-card fade-in">
+          <div class="card-media">
+            <img src="src/img/digitalizacion.jpg" alt="Análisis de Datos">
+            <div class="card-overlay">
+              <div class="overlay-icon">
+                <i class="bi bi-cloud-arrow-up"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <h4>Digitalización Continua</h4>
+            <p>La transformación Digital no para, el papel aún sigue en juego. Software de Convergencia IT/OT con Ingeniería de procesos, permite que 5 semanas de datos Excel se observen en 5 minutos.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION MEJORADO -->
+   <section class="cta-section" id="wolfy">
+    <div class="cta-bg-pattern">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <pattern id="grain" patternUnits="userSpaceOnUse" width="100" height="100">
+            <circle cx="50" cy="50" r="2" fill="currentColor" opacity="0.1"/>
+            <circle cx="20" cy="20" r="1" fill="currentColor" opacity="0.1"/>
+            <circle cx="80" cy="30" r="1.5" fill="currentColor" opacity="0.1"/>
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#grain)"/>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 cta-content fade-in">
+          <h2 class="cta-title">Conoce a Wolfy!</h2>
+          <p class="cta-description">
+            Una tecnología viva, compuesta por un hardware poderoso tipo Gateway que captura las señales en tiempo real, capaz de correr modelos de IA preentrenados, que se comunica a través de nuestra plataforma tipo SaaS. Evoluciona y aprende día a día, siempre disponible para nuevos insights.
+          </p>
+          <a href="#contacto" class="cta-button">
+            <i class="bi bi-rocket-takeoff"></i>
+            Conocer a Wolfy en Acción
+          </a>
+        </div>
+
+        <div class="col-lg-6 fade-in">
+          <img src="src/img/Wolfy Oficina.png" alt="Wolfy - Tecnología Industrial" class="cta-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE CLIENTES -->
+  <section id="clientes" class="clients-section" style="padding: 120px 0; background: linear-gradient(135deg, #F8FAFC 0%, #E2E8F0 100%);">
+    <div class="container">
+      <div class="section-title fade-in text-center mb-5">
+        <div class="section-subtitle">Nuestros Clientes</div>
+        <h2 class="section-main-title">Gracias a esto nuestros clientes nos confían sus procesos</h2>
+        <p style="color: var(--muted); font-size: 1.1rem; max-width: 700px; margin: 0 auto;">
+          La confianza de empresas líderes respalda nuestro compromiso con la excelencia en transformación digital
+        </p>
+      </div>
+
+    <!-- Logos de clientes (placeholder) -->
+      <div class="clients-logos fade-in">
+        <div class="clients-scroll">
+          <div class="client-logo">
+            <img src="src/img/Sacyr_Logo.png" alt="Cliente 1">
+          </div>
+          <div class="client-logo">
+            <img src="src/img/Team_Foods-logo.png" alt="Cliente 2">
+          </div>
+          <div class="client-logo">
+            <img src="src/img/unifrutti-logo.png" alt="Cliente 3">
+          </div>
+          <div class="client-logo">
+            <img src="src/img/volta-logo.png" alt="Cliente 4">
+          </div>
+          <div class="client-logo">
+            <img src="src/img/econssa-logo.png" alt="Cliente 5">
+          </div>
+          <div class="client-logo">
+            <img src="src/img/aguas_santiago_norte-logo.svg" alt="Cliente 6">
+          </div>
+        </div>
+      </div>
+
+      
+  </section>
+
+  <!-- SECCIÓN LINKEDIN PROFESIONAL -->
+  <section class="linkedin-section" style="padding: 120px 0; background: var(--gradient-secondary); color: white; position: relative; overflow: hidden;">
+    <div class="linkedin-bg-pattern">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="position: absolute; top: 0; right: -20%; width: 80%; height: 100%; opacity: 0.1;">
+        <defs>
+          <pattern id="linkedinPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+            <circle cx="10" cy="10" r="2" fill="currentColor"/>
+            <rect x="5" y="5" width="10" height="10" fill="none" stroke="currentColor" stroke-width="0.5"/>
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#linkedinPattern)"/>
+      </svg>
+    </div>
+
+    <div class="container position-relative">
+      <div class="row align-items-center">
+        <div class="col-lg-6 fade-in">
+          <div class="linkedin-content">
+            <div class="linkedin-icon-large mb-4">
+              <i class="bi bi-linkedin" style="font-size: 4rem; color: #006BA5;"></i>
+            </div>
+            <h2 class="linkedin-title">Conecta con Nuestro Equipo de Expertos</h2>
+            <p class="linkedin-description">
+              Síguenos en LinkedIn para mantenerte al día con las últimas tendencias en transformación digital industrial, casos de éxito de nuestros clientes y insights exclusivos de nuestro equipo de ingenieros.
+            </p>
+            
+            <div class="linkedin-benefits">
+              <div class="benefit-item">
+                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                <span>Contenido exclusivo sobre Industria 4.0</span>
+              </div>
+              <div class="benefit-item">
+                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                <span>Casos de éxito y mejores prácticas</span>
+              </div>
+              <div class="benefit-item">
+                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                <span>Networking con líderes industriales</span>
+              </div>
+              <div class="benefit-item">
+                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                <span>Actualizaciones sobre nuevas tecnologías</span>
+              </div>
+            </div>
+
+            <div class="linkedin-cta-group">
+              <a href="https://www.linkedin.com/company/optima-ingenieria" target="_blank" rel="noopener noreferrer" class="linkedin-btn-primary">
+                <i class="bi bi-linkedin me-2"></i>
+                Seguir en LinkedIn
+              </a>
+              <!-- <a href="https://www.linkedin.com/in/equipo-optima" target="_blank" rel="noopener noreferrer" class="linkedin-btn-secondary">
+                <i class="bi bi-person-plus me-2"></i>
+                Conectar con el Equipo
+              </a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 fade-in">
+          <div class="linkedin-visual">
+            <div class="linkedin-card-preview">
+              <div class="preview-header">
+                <div class="linkedin-logo-small">
+                  <i class="bi bi-linkedin"></i>
+                </div>
+                <div class="preview-info">
+                  <h6>Óptima Ingeniería</h6>
+                  <small>Creating Smart Industries</small>
+                </div>
+              </div>
+              <div class="preview-content">
+                <p>💧✨ ¡Óptima Ingeniería presente en la 5ta edición de Expo Agua 2025! ✨💧<br> <br> Nos complace invitarlos a este gran encuentro de innovación y sostenibilidad 💡🌱, que se llevará a cabo los días 13 y 14 de agosto 📅.</p>
+                <div class="preview-image">
+                  <video autoplay muted loop playsinline class="video-small">
+                    <source src="src/video/video-linkedin.mp4" type="video/mp4">
+                  </video>
+                  <!-- <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=400&h=250&fit=crop&crop=center" alt="LinkedIn Post Preview"> -->
+                </div>
+
+              </div>
+              <div class="preview-actions">
+                <span><i class="bi bi-hand-thumbs-up"></i> 247</span>
+                <span><i class="bi bi-chat"></i> 18</span>
+                <span><i class="bi bi-share"></i> 12</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION RENOVADO -->
+  <section id="contacto" class="contact-section">
+    <div class="container">
+      <div class="section-title fade-in">
+        <div class="section-subtitle">Contacto</div>
+        <h2 class="section-main-title">Conectemos y Transformemos Juntos</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 fade-in">
+          <div class="contact-card">
+            <h3 class="mb-4">Información de Contacto</h3>
+            <p class="mb-4 text-muted">Estamos aquí para ayudarte a dar el siguiente paso hacia la transformación digital de tu empresa.</p>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div>
+                <h6 class="mb-1">Nuestra Oficina</h6>
+                <p class="mb-0 text-muted">El Bosque Int. 77, Oficina 6. Las Condes.</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div>
+                <h6 class="mb-1">Email Corporativo</h6>
+                <p class="mb-0 text-muted">farevalo@optima.eco <br> mgodoy@optima.eco</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div>
+                <h6 class="mb-1">Teléfono Directo</h6>
+                <p class="mb-0 text-muted">+569 6596 0872</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="bi bi-clock"></i>
+              </div>
+              <div>
+                <h6 class="mb-1">Horarios de Atención</h6>
+                <p class="mb-0 text-muted">Lun-Vie: 8:00 AM - 6:00 PM</p>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+
+        <div class="col-lg-6 fade-in">
+          <div class="contact-card">
+            <h3 class="mb-4">Envíanos un Mensaje</h3>
+            <form class="contact-form">
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre Completo *</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Tu nombre completo" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Corporativo *</label>
+                <input type="email" class="form-control" id="email" placeholder="tu.email@empresa.com" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="+569 1234-5678">
+              </div>
+
+              <div class="mb-3">
+                <label for="empresa" class="form-label">Empresa</label>
+                <input type="text" class="form-control" id="empresa" placeholder="Nombre de tu empresa">
+              </div>
+
+              <div class="mb-4">
+                <label for="mensaje" class="form-label">Mensaje *</label>
+                <textarea class="form-control" id="mensaje" rows="4" placeholder="Cuéntanos sobre tu proyecto y cómo podemos ayudarte..." required></textarea>
+              </div>
+
+              <button type="submit" class="submit-button">
+                <i class="bi bi-send"></i>
+                Enviar Mensaje
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER MODERNIZADO -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center py-4">
+        <div class="col-md-6">
+          <div class="d-flex align-items-center gap-3 mb-3 mb-md-0">
+            <div class="footer-logo">
+              <img src="src/img/corfo-logo.png" alt="Optima Logo" style="height: 140px;">
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="col-md-6 text-md-end">
+          <div class="mb-2">
+            <span style="color: #94A3B8;">Contacto: </span>
+            <strong class="text-white">+569 6596 0872</strong>
+          </div>
+          <small style="color: #94A3B8;">© 2025 Optima Ingeniería. Todos los derechos reservados.</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>
